@@ -8,7 +8,6 @@ import axios from "axios";
 const ProductScreen = () => {
     const[product,setProducts] = useState([])
     const {id:productId} = useParams();
-    // const product = products.find((p) => p._id === productId)
   
     useEffect(() => {
         const fetch = async () => {
